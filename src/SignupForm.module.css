@@ -14,7 +14,7 @@
     background-size: var(--size) calc(var(--size) + calc(1rem / 16));
     flex: 0 0 var(--size);
     display: block;
-    background-image: url(images/icon-list.svg);
+    background-image: url(/images/icon-list.svg);
     background-position: center calc(1rem / 16);
     background-repeat: no-repeat;
     align-self: flex-start;
