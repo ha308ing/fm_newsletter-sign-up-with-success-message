@@ -70,9 +70,9 @@ export const SignupForm = () => {
             <Illustration />
 
             <div className="flex flex-col gap-[0.9rem] pt-[1.875rem] md:order-first md:gap-[0.65rem] md:ps-[2.5rem] md:pt-[3.65rem]">
-                <h2 className="px-6 text-[2.5rem] font-bold md:px-0 md:text-[3.5rem]">
+                <h1 className="px-6 text-[2.5rem] font-bold md:px-0 md:text-[3.5rem]">
                     Stay updated!
-                </h2>
+                </h1>
 
                 <p className="px-6 md:px-0">
                     Join 60,000+ product managers receiving monthly updates on:
