@@ -1,0 +1,21 @@
+.list li {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.list li::before {
+    --size-px: 21;
+    --size: calc(1rem / 16 * var(--size-px));
+    content: "";
+    inline-size: var(--size);
+    block-size: calc(var(--size) + calc(1rem / 16 * 2));
+    background-size: var(--size) calc(var(--size) + calc(1rem / 16));
+    flex: 0 0 var(--size);
+    display: block;
+    background-image: url(images/icon-list.svg);
+    background-position: center calc(1rem / 16);
+    background-repeat: no-repeat;
+    align-self: flex-start;
+}

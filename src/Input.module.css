@@ -1,0 +1,6 @@
+.invalid {
+    --invalid-color: hsl(var(--color-tomato));
+    color: var(--invalid-color);
+    border-color: var(--invalid-color);
+    background-color: color-mix(in srgb, var(--invalid-color) 20%, transparent);
+}

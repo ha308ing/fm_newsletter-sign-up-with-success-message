@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Roboto, system-ui, sans-serif;
+        font-size: 1rem;
+        --color-tomato: 4 100% 67%;
+        --color-dark-slate-grey: 234 29% 20%;
+        --color-charcoal-grey: 235 18% 26%;
+    }
+
+    body {
+        font-size: 100%;
+    }
+}
